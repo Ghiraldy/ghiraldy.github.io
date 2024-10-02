@@ -1,0 +1,56 @@
+/* import */
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Fugaz+One&family=Staatliches&display=swap');
+
+:root {
+  --bg-color: #eee;
+  --nav-color: #333;
+  --font-menu: 'Staatliches';
+  --font-logo: 'Fugaz One';
+  --font-banner: 'DM Serif Display';
+  --font-color-light: white;
+  --font-color-dark: #333;
+  --font: 'Arial';
+  --blue-color: lightseagreen;
+  --content-color: #fff;
+
+  /* shadow */
+  --card-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+html {
+  scrool-behavior: smooth
+}
+
+body {
+  background-color: var(--bg-color);
+}
+
+.container {
+  display: grid;
+  background: var(--bg-color);
+  position: relative;
+  overflow: hidden;
+}
+
+nav {
+  display: flex;
+  position: fixed;
+  backdrop-filter: blur(10px);
+  width: 100%;
+  height: 70px;
+}
+
+section {
+  min-height: 700px;
+}
+
+.contact {
+  background-color: blueviolet;
+}
